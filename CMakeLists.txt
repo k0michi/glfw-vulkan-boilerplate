@@ -20,4 +20,4 @@ target_include_directories(main PRIVATE third_party/glfw/include)
 target_link_libraries(main glfw)
 
 target_include_directories(main PRIVATE ${Vulkan_INCLUDE_DIRS})
-target_link_libraries(main ${Vulkan_LIBRARIES} "-framework AppKit" "-framework QuartzCore")
+target_link_libraries(main ${Vulkan_LIBRARIES})
