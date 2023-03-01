@@ -41,4 +41,4 @@ In case of macOS:
 
 ## License
 
-CC0
+CC0 1.0
